@@ -23,7 +23,7 @@ This is an API that matches two strings and gives the percentage match
 
 3. Curl Dump:
     This is to dump the string via curl command<br/> 
-    COMMAND EXAMPLE: `curl -i -H "Content-Type: application/json" -X POST -d '{"str1":"arun kumar", "str2": "arun"}' http://xyz:8080/curldump/`<br/> <br/> 
+    COMMAND EXAMPLE: `curl -i -H "Content-Type: application/json" -X POST -d '{"str1":"arun kumar", "str2": "kumar"}' http://xyz:8080/curldump/`<br/> <br/> 
     ![Screenshot](curldump_page.png)
 
 
