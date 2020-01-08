@@ -6,11 +6,6 @@ import stringFuzzer.utils
 
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords,wordnet
-from nltk.stem import WordNetLemmatizer
-from itertools import product
-from urllib.request import urlopen
-import stringFuzzer.getAllTheFileWithAnExtention as gex
-import numpy
 
 @utils.check_for_none
 @utils.check_for_equivalence
